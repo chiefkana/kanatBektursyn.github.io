@@ -1,0 +1,30 @@
+body {
+  align-items: center;
+  font-family: "Gayathri", sans-serif;
+  font-size: 40px;
+  color: antiquewhite;
+  background-color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  background-image: url("img/Girl-with-a-Pearl-Earring-canvas-Johannes-1665.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 600px 700px;
+  padding: 350px;
+}
+.container__grid {
+  display: flex;
+  flex-direction: row;
+}
+.grid-item {
+  width: 100px;
+  height: 100px;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
